@@ -350,5 +350,7 @@ $ named-checkzone 100.168.192.in-addr.arpa /etc/bind/db.192.168.100
 #### 5) Redémarrer le serveur Bind9. Vous devriez maintenant être en mesure de ”pinguer” les différentes machines du réseau. redémarrer bind9 : sudo service bind9 restart.
 
 Pour vérifier que la machine est bien connectée au serveur DNS 192.168.100.1: faire `resolvectl status`.
+
 Pour vérifier les liens ip/nom de domaine : faire `host 192.168.100.20` ou `host serveur.tpadmin.local`.
+
 Pour ping les machine avec les noms : faire `ping serveur.tpadmin.local`
